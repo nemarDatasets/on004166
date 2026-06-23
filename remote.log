@@ -1,1 +1,2 @@
 49cc9c5b-4a0d-4446-bc1f-b8390b48664d autoenable=true bucket=openneuro.org datacenter=US encryption=none exporttree=yes fileprefix=ds004166/ host=s3.amazonaws.com name=s3-PUBLIC partsize=1GiB port=80 public=yes publicurl=https://s3.amazonaws.com/openneuro.org storageclass=STANDARD type=S3 versioning=yes timestamp=1782225111s
+d308b670-d037-4655-bc41-9304a3e4d280 autoenable=true bucket=nemar datacenter=us-east-2 encryption=none fileprefix=on004166/objects/ host=s3.amazonaws.com name=nemar-s3 port=80 protocol=https signature=v4 storageclass=STANDARD type=S3 timestamp=1782225112s
