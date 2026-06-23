@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004166-blue)](https://doi.org/10.82901/nemar.on004166)
+
 ## Effects of Forward and Backward Span Trainings on Working Memory: Evidence from a Randomized, Controlled Trial
 
 ### Introduction
