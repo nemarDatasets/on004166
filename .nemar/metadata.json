@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on004166",
-  "source": "openneuro",
-  "source_id": "ds004166",
+  "pipeline_stage": "enriched",
   "title": "Effects of Forward and Backward Span Trainings on Working Memory: Evidence from a Randomized, Controlled Trial",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Yang Li (data and curation)": {},
     "Wenjin Fu (data)": {},
@@ -18,26 +18,92 @@
     "Chuansheng Chen (curation)": {},
     "Jun Li (data and curation)": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004166.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004166",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004166",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004166",
+      "identifier_type": "DOI",
+      "relation_type": "IsVersionOf"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.7.0",
-  "recording_modality": [
-    "eeg"
-  ],
-  "datatypes": [
-    "eeg"
   ],
   "funding_references": [
     {
-      "funder_name": "This work was supported by grants from the National Natural Science Foundation of China (31771242). The authors declared that they have no conflict of interest."
+      "funder_name": "National Natural Science Foundation of China",
+      "award_number": "31771242"
     }
-  ]
+  ],
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".fdt",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv"
+  ],
+  "description": "This randomized controlled trial investigates the differential effects of forward and backward working memory span training on cognitive performance and neural activity. Event-related potentials (ERPs) were recorded during a distractor-based change detection task at pre-, mid-, and post-test timepoints, while behavioral measures were collected from additional cognitive tasks. The study demonstrates that both training types enhance working memory maintenance compared to control conditions, with backward span training providing superior interference control benefits based on ERP indices.",
+  "methods_description": "EEG signals were recorded using a 64-channel Synamps RT system (Neuroscan) at three timepoints (pre-, mid-, and post-tests) while subjects performed a distractor version of the change detection task with three conditions (2T0D, 4T0D, 2T2D). Vertical and horizontal electrooculograms (EOGs) were recorded to monitor eye movements. The reference electrode was placed on the left mastoid with electrode impedance maintained below 5kΩ. Behavioral data were collected from a multi-object change detection task and a suppress task.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "event-related potentials"
+    },
+    {
+      "term": "working memory"
+    },
+    {
+      "term": "cognitive training"
+    },
+    {
+      "term": "change detection"
+    },
+    {
+      "term": "interference control"
+    },
+    {
+      "term": "Randomized Controlled Trial",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D016449"
+    },
+    {
+      "term": "distractor-based change detection"
+    },
+    {
+      "term": "CDA"
+    },
+    {
+      "term": "cognitive intervention"
+    },
+    {
+      "term": "ERP components"
+    },
+    {
+      "term": "span training"
+    },
+    {
+      "term": "cortical plasticity"
+    }
+  ],
+  "source_hash": "bdcabf395bc6960d3b9613dd1083be88283fd4ae13a9ecf7701373fd716ab4c0"
 }
