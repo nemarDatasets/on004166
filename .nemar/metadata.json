@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Effects of Forward and Backward Span Trainings on Working Memory: Evidence from a Randomized, Controlled Trial",
-  "description": "This randomized controlled trial investigates the differential effects of forward and backward span training on working memory capacity. Event-related potentials (ERPs) were recorded during a distractor version of the change detection task at pre-, mid-, and post-test timepoints, while behavioral measures were collected from additional cognitive tasks. The study demonstrates that both training types enhance working memory maintenance compared to control conditions, with backward span training providing superior benefits for interference control based on ERP indices.",
-  "methods_description": "EEG signals were recorded using a 64-channel Synamps RT system (Neuroscan) at three timepoints (pre-, mid-, and post-tests) while participants performed a distractor version of the change detection task with three conditions (2T0D, 4T0D, 2T2D). Vertical and horizontal electrooculograms (EOGs) were recorded to monitor eye movements. The reference electrode was placed on the left mastoid with electrode impedance maintained below 5kΩ. Behavioral data were collected from a multi-object change detection task and a suppress task.",
+  "description": "This dataset presents EEG recordings from a randomized controlled trial examining the effects of forward and backward working memory span training on working memory performance. Event-related potentials were collected at pre-, mid-, and post-test sessions while participants performed a change detection task with varying target and distractor conditions. The study compares behavioral and ERP indices of working memory maintenance and interference control across training groups.",
+  "methods_description": "EEG signals were recorded at pre-, mid-, and post-test time points using a 64-channel Synamps RT system (Neuroscan, El Paso, USA). Participants sat in a comfortable chair inside a darkened, electrically shielded recording chamber. Electrode impedance was kept below 5kΩ, with the reference electrode on the left mastoid. Vertical EOG was recorded via electrodes above and below the right eye, and horizontal EOG via electrodes at the outer canthi of each eye.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -22,47 +22,32 @@
   },
   "keywords": [
     {
-      "term": "working memory"
-    },
-    {
       "term": "EEG"
     },
     {
-      "term": "event-related potentials"
+      "term": "working memory"
+    },
+    {
+      "term": "Event-Related Potentials, P300",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
     },
     {
       "term": "cognitive training"
     },
     {
-      "term": "change detection"
+      "term": "change detection task"
     },
     {
-      "term": "interference control"
-    },
-    {
-      "term": "span training"
-    },
-    {
-      "term": "working memory training"
-    },
-    {
-      "term": "randomized controlled trial"
-    },
-    {
-      "term": "distractor task"
-    },
-    {
-      "term": "change detection paradigm"
+      "term": "Randomized Controlled Trial",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D016449"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on004166",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004166",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -75,6 +60,11 @@
       "identifier": "10.18112/openneuro.ds004166.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004166",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
