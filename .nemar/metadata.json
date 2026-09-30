@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Effects of Forward and Backward Span Trainings on Working Memory: Evidence from a Randomized, Controlled Trial",
-  "description": "This dataset presents EEG recordings from a randomized controlled trial examining the effects of forward and backward working memory span training on working memory performance. Event-related potentials were collected at pre-, mid-, and post-test sessions while participants performed a change detection task with varying target and distractor conditions. The study compares behavioral and ERP indices of working memory maintenance and interference control across training groups.",
-  "methods_description": "EEG signals were recorded at pre-, mid-, and post-test time points using a 64-channel Synamps RT system (Neuroscan, El Paso, USA). Participants sat in a comfortable chair inside a darkened, electrically shielded recording chamber. Electrode impedance was kept below 5kΩ, with the reference electrode on the left mastoid. Vertical EOG was recorded via electrodes above and below the right eye, and horizontal EOG via electrodes at the outer canthi of each eye.",
+  "description": "This dataset contains EEG/ERP recordings from a randomized controlled trial comparing forward span training, backward span training, and no-intervention control groups on working memory. Recordings were collected at pre-, mid-, and post-test while participants performed a distractor version of the change detection task, and behavioral data were collected from additional change detection and suppress tasks. The data support analyses of working memory maintenance and interference control, indexed by Kmax and contralateral delay activity (CDA).",
+  "methods_description": "EEG was recorded with a 64-channel Synamps RT system (Neuroscan) at pre-, mid-, and post-test sessions. Participants sat in a darkened, electrically shielded chamber with impedance below 5 kΩ and the reference on the left mastoid. Vertical and horizontal EOG were recorded. The task was a distractor version of change detection with 2T0D, 4T0D, and 2T2D conditions.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -25,24 +25,22 @@
       "term": "EEG"
     },
     {
-      "term": "working memory"
+      "term": "event-related potentials"
     },
     {
-      "term": "Event-Related Potentials, P300",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
+      "term": "working memory"
     },
     {
       "term": "cognitive training"
     },
     {
-      "term": "change detection task"
+      "term": "randomized controlled trial"
     },
     {
-      "term": "Randomized Controlled Trial",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D016449"
+      "term": "contralateral delay activity"
+    },
+    {
+      "term": "change detection task"
     }
   ],
   "related_identifiers": [
@@ -65,6 +63,26 @@
       "identifier": "https://nemar.org/dataset/on004166",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1016/j.jad.2015.09.022",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1176/appi.ajp.161.4.745",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1111/j.1467-8624.2009.01282.x",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1016/j.jecp.2003.10.002",
+      "identifier_type": "DOI",
+      "relation_type": "References"
     }
   ],
   "funding_references": [
@@ -78,7 +96,7 @@
     "eeg"
   ],
   "sizes": [
-    "82.8 GB (426 files)"
+    "77.10 GB (426 files)"
   ],
   "formats": [
     ".fdt",
